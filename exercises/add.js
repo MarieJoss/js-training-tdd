@@ -7,7 +7,11 @@
  */
 
 // Your code:
-
+let num1=2
+let num2=5
+function add(num1, num2){
+    return num1+num2
+}
 //* Begin of tests
 const assert = require('assert');
 const rand = Math.random();

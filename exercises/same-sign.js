@@ -9,6 +9,12 @@
 
 // Your code:
 
+let numb1 = 3
+let numb2 = -1
+
+function sameSign(numb1, numb2) {
+    return numb1  > 0 && numb2 > 0 ? true : numb1 < 0  && numb2 < 0 ? true : numb1 == 0 && numb2 == 0 ? true : false
+}
 //* Begin of tests
 const assert = require('assert');
 

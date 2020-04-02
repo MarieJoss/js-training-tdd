@@ -7,7 +7,14 @@
  */
 
 // Your code:
+const arrNumber= [4, 5, 6, 7]
 
+function total(arrNumber){
+    return arrNumber.reduce(function (a,b){
+        return a + b
+    }
+    )
+}
 //* Begin of tests
 const assert = require('assert');
 
